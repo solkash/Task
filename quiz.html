@@ -11,18 +11,22 @@
     <h1>Опитування</h1>
   </header>
     <form method="POST" action="https://formspree.io/xyykddrz">
-        <p><label>Ваше ім'я:</label>
-          <input type="text" placeholder="Ім'я" required name="Ім'я">
+        <p>
+          <label>Ваше ім'я:</label>
+          <label>
+            <input type="text" placeholder="Ім'я" required name="Ім'я">
           </label>
         </p>
         <p>
           <label>Прізвище:</label>
-          <input type="text" placeholder="Прізвище" required name="Прізвище">
+          <label>
+            <input type="text" placeholder="Прізвище" required name="Прізвище">
           </label>
         </p>
         <p>
           <label>E-mail:</label>
-          <input type="email" placeholder="E-mail" required name="E-mail">
+          <label>
+            <input type="email" placeholder="E-mail" required name="E-mail">
           </label>
         </p>
         <p>
@@ -35,22 +39,26 @@
         </p>
         <p>
           <label><b>Чи є вас домашня тваринка?</b></label>
-          <input type="radio" name="status">Так
-          <input type="radio" name="status">Ні
+          <label>
+            <input type="radio" name="yes">Так
+          </label>
+          <label>
+            <input type="radio" name="no">Ні
+          </label>  
         </p>
         <p>
           <label><b>Чому коти не бояться лишатися самими?</b></label><br>
          </p>
         <label>
-          <input type="radio" name="status">
+          <input type="radio" name="select">
           Знають, що в разі чого не дадуть себе образити!
         </label><br>
         <label>
-          <input type="radio" name="status">
+          <input type="radio" name="select">
           Просто вони егоїсти!
         </label><br>
         <label>
-          <input type="radio" name="status">
+          <input type="radio" name="select">
           Ніхто не заважає обдумувати план захоплення світу.
         </label><br>
         <p>
