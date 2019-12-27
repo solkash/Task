@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Опитування</title>
+</head>
+<body>
+  <header>
+    <h1>Опитування</h1>
+  </header>
+    <form method="POST" action="https://formspree.io/xyykddrz">
+        <p><label>Ваше ім'я:</label>
+          <input type="text" placeholder="Ім'я" required name="Ім'я">
+          </label>
+        </p>
+        <p>
+          <label>Прізвище:</label>
+          <input type="text" placeholder="Прізвище" required name="Прізвище">
+          </label>
+        </p>
+        <p>
+          <label>E-mail:</label>
+          <input type="email" placeholder="E-mail" required name="E-mail">
+          </label>
+        </p>
+        <p>
+          <label>Cтать:</label> 
+          <select>
+            <option>Жіноча</option>
+            <option>Чоловіча</option>
+            <option>Інше</option>
+          </select>
+        </p>
+        <p>
+          <label><b>Чи є вас домашня тваринка?</b></label>
+          <input type="radio" name="status">Так
+          <input type="radio" name="status">Ні
+        </p>
+        <p>
+          <label><b>Чому коти не бояться лишатися самими?</b></label><br>
+         </p>
+        <label>
+          <input type="radio" name="status">
+          Знають, що в разі чого не дадуть себе образити!
+        </label><br>
+        <label>
+          <input type="radio" name="status">
+          Знають, що в разі чого не дадуть себе образити!
+        </label><br>
+        <label>
+          <input type="radio" name="status">
+          Просто вони егоїсти!
+        </label><br>
+        <p>
+          <label><b>Нащо коти мурчать?</b></label>
+        </p>
+        <label>
+          <input type="radio" name="status">
+          Висловлюють емоції: від радості, стресу чи голоду.
+        </label><br>
+        <label>
+          <input type="radio" name="status">
+          Мурчання допомагає їм заснути
+        </label><br>
+        <label>
+          <input type="radio" name="status">
+          Правильно і те, і інше.
+        </label>
+        <p>  
+          <button>Надіслати</button>
+        </p>
+    </form>    
+</body>
+</html>
